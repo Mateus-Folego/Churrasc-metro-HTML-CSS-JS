@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/beef_icon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Churrascômetro | Organizador de Churrascos</title>
+</head>
+<body>
+        <div id="contContainer">
+            <div id="titleDiv">
+                <h1 id="title">Churrascômetro</h1></div>
+                    <h3 id="explanation">Este programa irá calcular a quantidade de carne (Carne vermelha, linguiça e frango), bebida (refrigerante e água) e bebida alcoólica (cerveja), que será necessário para realizar um churrasco, de acordo com a quantidade de pessoas e a duração do evento.</h3>
+                        <input id="adults" name="adults" type="number" placeholder="Adultos">
+                            <input id="kids" name="kids" type="number" placeholder="Crianças">
+                                <input id="alcoholicDrink" name="alcoholicDrink" type="number" placeholder="Consomem cerveja">
+                                    <input id="duration" name="duration" type="number" placeholder="Duração (Horas)">
+                                        <button onclick="calculate()" class="buttons">Calcular</button>
+        </div>
+    <div class="backWindow"></div>
+        <div class="showCalculation">
+            <!-- Texto com as informações do Churrasco! -->
+        </div>
+        
+<script src="./JS/script.js"></script>
+</body>
+</html>

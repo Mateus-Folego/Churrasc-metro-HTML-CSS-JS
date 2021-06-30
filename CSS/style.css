@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+button, input, i{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+body{
+    background-color:#023047 ;
+}
+
+#contContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    background-color:#ffb703;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #023047 ;
+}
+
+#titleDiv{
+    background-color:#023047;
+    color:#ffb703;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 85%;
+    margin: auto;
+}
+
+#titleDiv:hover{
+    background-color:#013651;
+}
+
+#title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+#explanation{
+    text-align: justify;
+    margin-bottom: 15px;
+    
+}
+
+input{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #ffb703;
+    border: 2px solid #023047;
+    font-size: 16px;
+    font-weight: bold;
+    /* Deixando a margin dos inputs igual dos dois lados*/
+    box-sizing: border-box;
+    color:#023047;
+    
+}
+
+input::placeholder{
+    color: #023047;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buttons{
+    display: block;
+    margin: auto;
+    padding: 8px;
+    width: 40%;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #023047;
+    background-color: #023047;
+    color: #ffb703;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color:#013651;
+    border: 2px solid #013651;
+}
+
+.showCalculation{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color:#ffb703;
+    color:#023047;
+    z-index: 200;
+    width: 35%;
+    border-radius: 10px;
+    display: none;
+}
+
+.showCalculation.open{
+    display: block !important;
+}
+
+.backWindow{
+    position: fixed;
+    top: 0;
+    background-color:#023047;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 100;
+    right: 0;
+    display: none;
+}
+
+.backWindow.open{
+    display: block !important;
+}
+
+.btnClose{
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background-color: #023047;
+    color: #ffb703;
+    outline: none;
+    cursor: pointer;
+    text-rendering: optimizeLegibility;
+}
+
+.btnClose:hover{
+    background-color: #013651;
+}
+
+.boxTitle{
+    text-align: center;
+}
+
+ul{
+    text-align: justify;
+    list-style-position: inside;
+}
+
+li{
+    margin: 18px;
+    font-size: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.beef{
+    list-style-image: url(/assets/beef_finished.png);
+}
+
+.chiken{
+    list-style-image: url(/assets/chiken_finished.png);
+}
+
+.sausage{
+    list-style-image: url(/assets/sausage_finished.png);
+}
+
+.water{
+    list-style-image: url(/assets/water_finished.png);
+}
+
+.soda{
+    list-style-image: url(/assets/soda_finished.png);
+}
+
+.beer{
+    list-style-image: url(/assets/beer_finished.png);
+}
+
+@media(max-width: 1265px){
+    #title{
+        font-size: 35px;
+    }
+
+    #contContainer{
+        width: 40%;
+    }
+
+    .showCalculation{
+        width: 50%;
+    }
+}
+
+@media(max-width: 921px){
+    #contContainer{
+        width: 70%;
+    }
+
+    .showCalculation{
+        width: 68%;
+    }
+}
+
+@media(max-width: 521px){
+    #contContainer{
+        width: 95%;
+    }
+
+    #title{
+        font-size: 22px;
+    }
+
+    #explanation{
+        font-size: 15px;
+    }
+
+    .buttons{
+        font-size: 16px;
+    }
+    
+    .showCalculation{
+        width: 85%;
+    }
+
+    .boxTitle{
+        font-size: 22px;
+    }
+
+    li{
+        font-size: 17px;
+        margin: 8px;
+    }
+
+    .btnClose{
+        right: -6px;
+        width: 38px;
+        height: 38px;
+    }
+}
