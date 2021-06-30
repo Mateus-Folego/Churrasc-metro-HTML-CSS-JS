@@ -1,4 +1,4 @@
-<h1 align="center"><strong>CHURRASCÔMETRO</strong> <img src="../GitHub/barbecue_icon_finished.png" width=42px height=74px> </h1>
+<h1 align="center"><strong>CHURRASCÔMETRO</strong> <img src="./GitHub/barbecue_icon_finished.png" width=42px height=74px> </h1>
 
 <h2><strong>Status:</strong> Finished ✔️</h2>
 
@@ -7,9 +7,9 @@
 <br>
 
 <div align="center">
-    <img src="../GitHub/Demo_Web.gif.gif" alt="web demo gif"> 
+    <img src="./GitHub/Demo_Web.gif.gif" alt="web demo gif"> 
         <br><br>
-    <img src="../GitHub/Demo_Mob.gif.gif" alt="Mobile demo gif" height=450px>
+    <img src="./GitHub/Demo_Mob.gif.gif" alt="Mobile demo gif" height=450px>
 </div>
 
 <br>
