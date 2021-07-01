@@ -1,4 +1,4 @@
-<h1 align="center"><strong>CHURRASCÔMETRO</strong> <img src="./GitHub/barbecue_icon_finished.png" width=42px height=74px> </h1>
+<h1 align="center"><strong>CHURRASCÔMETRO</strong> <img src="./GitHub/barbecue_icon_finished.png" alt="Barbecue Image" width=42px height=74px> </h1>
 
 <h2><strong>Status:</strong> Finished ✔️</h2>
 
